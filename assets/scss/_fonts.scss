@@ -1,0 +1,18 @@
+
+// Cutive Mono font
+@font-face{
+    font-family: "Cutive Mono";
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/CutiveMono/cutivemono-regular.woff') format('woff'),
+        url('../fonts/CutiveMono/cutivemono-regular.woff2') format('woff2');
+}
+
+// Overpass Mono font
+@font-face {
+    font-family: 'Overpass Mono';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/OverpassMono/overpassmono-semibold.woff') format('woff'),
+        url('../fonts/OverpassMono/overpassmono-semibold.woff2') format('woff2');
+}

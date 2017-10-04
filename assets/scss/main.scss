@@ -1,0 +1,52 @@
+
+@import "base";
+@import 'fonts';
+
+.wrapper{
+	width: 500px;
+	height: 345px;
+	margin: 35px auto;
+	text-align: center;
+	color: $white;
+	background: $darkBlue;
+}
+.container{
+	width: 440px;
+	height: 285px;
+	display: inline-block;
+	margin: 30px;
+	background: $blue;
+	box-shadow: 3px 3px 7px 0 rgba(0,0,0, 0.35);
+}
+span{
+  font-family: "Cutive Mono", monospace;
+	display: block;
+	letter-spacing: 0.05em;
+}
+#time{
+	font-family: 'Overpass Mono', monospace;
+	font-size: 4.35rem;
+	font-weight: 600;
+	margin-top: 45px;
+	text-shadow: 3px 5px 8px rgba(0,0,0, 0.75);
+	animation-name: blink;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+}
+#day{
+	font-size: 2.5rem;
+	margin-top: 35px;
+}
+#date{
+	font-size: 1.25rem;
+	margin-top: 5px;
+}
+@keyframes blink{
+	from{
+		opacity: 1;
+	}
+	to{
+		opacity: 0;
+	}
+}
